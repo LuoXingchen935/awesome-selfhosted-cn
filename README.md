@@ -1,7 +1,9 @@
 # awesome-selfhosted-cn
+<a name="awesome-selfhosted-cn"></a>
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) 
 
+<a name="介绍"></a>
 ## 介绍
 
 [Awesome-Selfhosted](https://github.com/Kickball/awesome-selfhosted/) 是由 [Edward D](https://github.com/Kickball) 发起和维护资源列表，收集了许多可以在本地搭建的网络服务和 Web 应用列表。
@@ -20,74 +22,75 @@
   - [分析](#分析)
   - [自动化](#自动化)
   - [博客平台](#博客平台)
-  - [书签 & 链接共享](#书签与链接共享)
+  - [书签与链接共享](#书签与链接共享)
   - [日历和地址薄](#日历和地址薄)
   - [通讯系统](#通讯系统)
     - [定制](#定制)
-    - [Email](#Email)
+    - [Email](#email)
       - [完整方案](#完整方案)
       - [邮件传输代理](#邮件传输代理)
       - [邮件发送代理](#邮件发送代理)
       - [邮件列表和时讯](#邮件列表和时讯)
-      - [Webmail 客户端](#Webmail 客户端)
-    - [IRC](#IRC)
-    - [SIP](#SIP)
-    - [IPBX](#IPBX)
+      - [Webmail 客户端](#webmail-客户端)
+    - [IRC](#irc)
+    - [SIP](#sip)
+    - [IPBX](#ipbx)
     - [社交网络与论坛](#社交网络与论坛)
-    - [XMPP](#XMPP)
-      - [XMPP 服务器](#XMPP 服务器)
-      - [XMPP Web 客户端](#XMPP Web 客户端)
-  - [内容管理系统 (CMS)](#内容管理系统 (CMS))
+    - [XMPP](#xmpp)
+      - [XMPP 服务器](#xmpp-服务器)
+      - [XMPP Web 客户端](#xmpp-web-客户端)
+  - [内容管理系统 (CMS)](#内容管理系统-cms)
     - [电子商务](#电子商务)
-  - [DNS](#DNS)
+  - [DNS](#dns)
   - [文档归档](#文档归档)
-  - [企业资源规划 ERP](#企业资源规划 ERP)
-  - [联合身份/认证](#联合身份/认证)
-  - [Feed 阅读器](#Feed 阅读器)
+  - [企业资源规划 ERP](#企业资源规划-erp)
+  - [联合身份/认证](#联合身份认证)
+  - [Feed 阅读器](#feed-阅读器)
   - [文件共享和同步](#文件共享和同步)
       - [分布式文件系统](#分布式文件系统)
-      - [文件传输/同步](#文件传输/同步)
+      - [文件传输同步](#文件传输同步)
       - [点对点文件共享](#点对点文件共享)
-      - [单击/拖放上传](#单击/拖放上传)
-      - [基于 Web 的文件管理](#基于 Web 的文件管理)
+      - [单击拖放上传](#单击拖放上传)
+      - [基于-web-的文件管理](#基于-web-的文件管理)
   - [游戏](#游戏)
   - [网关](#网关)
-  - [Groupware 群件](#Groupware 群件)
+  - [Groupware 群件](#groupware-群件)
   - [学习和课程](#学习和课程)
-  - [地图 & GPS](#地图 & GPS)
+  - [地图-gps](#地图-gps)
   - [媒体流](#媒体流)
       - [语音流](#语音流)
       - [视频流](#视频流)
-  - [杂项/其它](#杂项/其它)
-  - [资金、预算和管理](#资金、预算和管理)
+  - [杂项其它](#杂项其它)
+  - [资金预算和管理](#资金预算和管理)
   - [监测](#监测)
-  - [笔记 & 编辑器](#笔记 & 编辑器)
+  - [笔记编辑器](#笔记编辑器)
   - [办公套件](#办公套件)
   - [密码管理](#密码管理)
-  - [Pastebins](#Pastebins)
+  - [Pastebins](#pastebins)
   - [个人仪表盘](#个人仪表盘)
-  - [图片和视频库](#图片和视频库)
+  - [照片和视频库](#照片和视频库)
   - [投票与事件](#投票与事件)
   - [代理](#代理)
   - [稍后阅读列表](#稍后阅读列表)
   - [搜索引擎](#搜索引擎)
   - [软件开发](#软件开发)
     - [项目管理](#项目管理)
-    - [Bug 跟踪](#Bug 跟踪)
-    - [IDE/工具](#IDE/工具)
+    - [Bug 跟踪](#bug-跟踪)
+    - [IDE工具](#ide工具)
     - [持续集成](#持续集成)
     - [文档生成器](#文档生成器)
   - [静态网站生成器](#静态网站生成器)
-  - [任务管理/To-do 列表](#任务管理/To-do 列表)
-  - [Ticketing](#Ticketing)
-  - [短 URL](#短 URL)
-  - [VPN](#VPN)
-  - [Web 服务器](#Web 服务器)
-  - [Wikis](#Wikis)
+  - [任务管理to do 列表](#任务管理to-do-列表)
+  - [Ticketing](#ticketing)
+  - [短链接](#短链接)
+  - [VPN](#vpn)
+  - [Web 服务器](#web-服务器)
+  - [Wikis](#wikis)
   - [自托管解决方案](#自托管解决方案)
   - [许可列表](#许可列表)
   - [外链](#外链)
   - [贡献](#贡献)
+  - [作者](#作者)
   - [许可](#许可)
 
 
@@ -95,6 +98,7 @@
 
 <!-- BEGIN SOFTWARE LIST -->
 
+<a name="分析"></a>
 ## 分析
 
 _Web Analytics_
@@ -115,26 +119,28 @@ _Business Intelligence_
   * [Redash](http://redash.io) - connect to over 18 types of databases (SQL and "NoSQL"), query your data, visualize it and create dashboards. Everything has a URL that can be shared. Slack and HipChat integration. ([Demo](https://demo.redash.io), [源码](https://github.com/getredash/redash)) `BSD` `Python`
 
 
+<a name="自动化"></a>
 ## 自动化
 
-  * [Alltube](http://www.alltubedownload.net) - A web interface for [youtube-dl](https://github.com/rg3/youtube-dl), a program to download videos and audio from [more than 100 websites](https://rg3.github.io/youtube-dl/supportedsites.html). ([Demo](http://www.alltubedownload.net), [源码](https://github.com/Rudloff/alltube)) `GPL` `PHP`
-  * [AmIUnique](https://amiunique.org/) - Learn how identifiable you are on the Internet (browser fingerprinting tool). ([源码](https://github.com/DIVERSIFY-project/amiunique) `MIT` `Java`
-  * [bip.io](https://bip.io/) - Web Automation For People And Robots - Drag, Drop, and Connect The Services You Love. ([源码](https://github.com/bipio-server/bipio)) `GPLv3` `Nodejs`
-  * [CouchPotato](https://couchpota.to/) - CouchPotato is an automatic Video Library Manager for Movies. Automatic torrent/nzb searching, downloading, and processing at the qualities you want. ([源码](https://github.com/CouchPotato/CouchPotatoServer/)) `GPLv3` `Python`
-  * [Headphones](https://github.com/rembo10/headphones) - An automated music downloader for NZB and Torrent, written in Python. It supports SABnzbd, NZBget, Transmission, µTorrent, Deluge and Blackhole. `GPLv3` `Python`
-  * [Healthchecks](https://healthchecks.io/) - Django app which listens for pings and sends alerts when pings are late. ([源码](https://github.com/healthchecks/healthchecks)) `BSD` `Python`
-  * [Huginn](https://github.com/cantino/huginn) - Allows you to build agents that monitor and act on your behalf - `MIT` `Ruby`
-  * [Http2pic](https://http2pic.haschek.at/) - Website screenshots/renderer. It uses the wkhtmltox to render websites with various options. ([源码](https://github.com/chrisiaut/http2pic)) `Apache 2.0` `PHP/Javascript`
-  * [Node RED](http://nodered.org/) - A browser-based flow editor that helps you wiring hardware devices, APIs and online services to create IoT solutions. ([源码](https://github.com/node-red/node-red)) `Apache` `Nodejs`
-  * [openHAB](http://www.openhab.org) - Vendor and technology agnostic open source software for home automation. ([源码](https://github.com/openhab/openhab)) `EPLv1` `Java`
-  * [RSS-Bridge](https://github.com/sebsauvage/rss-bridge) - rss-bridge is a PHP project capable of generating ATOM feeds for websites which don't have one. `Public domain` `PHP`
-  * [SickRage](http://sickrage.github.io/) - SickRage is an automatic Video Library Manager for TV Shows. Automatic torrent/nzb searching, downloading, and processing at the qualities you want. ([源码](https://github.com/SickRage/SickRage/)) `GPLv3` `Python`
-  * [Sonarr](https://sonarr.tv/) - An automatic TV Shows downloader and manager for Usenet and BitTorrent. It can grab, sort and rename new episodes and automatically upgrade the quality of files already downloaded when a better quality format becomes available. ([源码](https://github.com/Sonarr/Sonarr)) `GPLv3` `C#`
-  * [TriggerHappy](http://trigger-happy.eu/) - An opensource clone of IFTTT, a bridge between your internet services. ([源码](https://github.com/foxmask/django-th)) `BSD` `Python`
-  * [WTFDYUM](https://github.com/jchampemont/WTFDYUM) a.k.a Why The Fuck Did You Unfollow Me - Find out who stops following you on Twitter. ([Demo](https://www.wtfdyu.me/), [源码](https://github.com/jchampemont/WTFDYUM)) `Apache` `Java`
-  * [Zenbot 3](https://s8f.org/zenbot.html) - Zenbot is a lightweight, extendable, artificially intelligent trading bot for Bitcoin, Ether, Litecoin, and more. ([Demo](https://zenbot.s8f.org/), [源码](https://github.com/carlos8f/zenbot)) `MIT` `Node.js`
+  * [Alltube](http://www.alltubedownload.net) - 一个用于[youtube-dl](https://github.com/rg3/youtube-dl)的网页界面, 该程序可以从[超过100个网站](https://rg3.github.io/youtube-dl/supportedsites.html)下载视频和音频. ([演示站点](http://www.alltubedownload.net), [源码](https://github.com/Rudloff/alltube)) `GPL` `PHP`
+  * [AmIUnique](https://amiunique.org/) - 了解你在互联网上的可识别程度（浏览器指纹识别工具）。 ([源码](https://github.com/DIVERSIFY-project/amiunique) `MIT` `Java`
+  * [bip.io](https://bip.io/) - 面向人类和机器人的网络自动化 - 拖拽并连接你喜爱的服务。 ([源码](https://github.com/bipio-server/bipio)) `GPLv3` `Nodejs`
+  * [CouchPotato](https://couchpota.to/) - CouchPotato 是一款用于电影的自动视频库管理器。可按照你想要的质量自动搜索、下载和处理种子文件(Torrent)/网络新闻组文件(NZB)。 ([源码](https://github.com/CouchPotato/CouchPotatoServer/)) `GPLv3` `Python`
+  * [Headphones](https://github.com/rembo10/headphones) - 一款用 Python 编写的针对网络新闻组文件(NZB)和种子文件(Torrent)的自动音乐下载器。它支持 SABnzbd、NZBget、Transmission、µTorrent、Deluge 和 Blackhole。 `GPLv3` `Python`
+  * [Healthchecks](https://healthchecks.io/) - 一个 Django 应用程序，它监听 ping 请求，并在 ping 请求延迟时发送警报。 ([源码](https://github.com/healthchecks/healthchecks)) `BSD` `Python`
+  * [Huginn](https://github.com/cantino/huginn) - 允许你构建代表你进行监控和操作的代理 - `MIT` `Ruby`
+  * [Http2pic](https://http2pic.haschek.at/) - 网站截图/渲染器。它使用 wkhtmltox 以各种选项渲染网站。 ([源码](https://github.com/chrisiaut/http2pic)) `Apache 2.0` `PHP/Javascript`
+  * [Node RED](http://nodered.org/) - 一个基于浏览器的流程编辑器，可帮助你连接硬件设备、API 和在线服务以创建物联网解决方案。 ([源码](https://github.com/node-red/node-red)) `Apache` `Nodejs`
+  * [openHAB](http://www.openhab.org) - 适用于家庭自动化的与供应商和技术无关的开源软件。 ([源码](https://github.com/openhab/openhab)) `EPLv1` `Java`
+  * [RSS-Bridge](https://github.com/sebsauvage/rss-bridge) - RSS-Bridge 是一个 PHP 项目，能够为没有 ATOM 订阅源的网站生成 ATOM 订阅源。 `Public domain` `PHP`
+  * [SickRage](http://sickrage.github.io/) - SickRage 是一款针对电视剧的自动视频库管理器。可按你想要的质量自动搜索、下载和处理种子文件(Torrent)/网络新闻组文件(NZB)。 ([源码](https://github.com/SickRage/SickRage/)) `GPLv3` `Python`
+  * [Sonarr](https://sonarr.tv/) - 一款适用于 Usenet 和 BitTorrent 的自动电视剧下载器和管理器。它可以抓取、分类和重命名新剧集，并在有更高质量格式可用时自动升级已下载文件的质量。 ([源码](https://github.com/Sonarr/Sonarr)) `GPLv3` `C#`
+  * [TriggerHappy](http://trigger-happy.eu/) - IFTTT 的开源克隆版，是连接你的互联网服务的桥梁。 ([源码](https://github.com/foxmask/django-th)) `BSD` `Python`
+  * [WTFDYUM](https://github.com/jchampemont/WTFDYUM) 找出在推特上取关你的人。 ([Demo](https://www.wtfdyu.me/), [源码](https://github.com/jchampemont/WTFDYUM)) `Apache` `Java`
+  * [Zenbot 3](https://s8f.org/zenbot.html) - Zenbot 是一款轻量级、可扩展的人工智能交易机器人，适用于比特币、以太坊、莱特币等。 ([Demo](https://zenbot.s8f.org/), [源码](https://github.com/carlos8f/zenbot)) `MIT` `Node.js`
 
 
+<a name="博客平台"></a>
 ## 博客平台
 
 See also [Static Site Generators](#static-site-generators), [Content Management Systems](#content-management-systems-cms) and [WeblogMatrix](http://www.weblogmatrix.org/)
@@ -154,6 +160,7 @@ See also [Static Site Generators](#static-site-generators), [Content Management 
   * [WordPress](https://wordpress.org/) - Create a beautiful website or blog. ([源码](https://github.com/WordPress/WordPress)) `GPLv2` `PHP`
 
 
+<a name="书签与链接共享"></a>
 ## 书签与链接共享
 
   * [Bookie](https://github.com/bookieio/Bookie) - Python based delicious.com replacement. `AGPLv3` `Python`
@@ -167,6 +174,7 @@ See also [Static Site Generators](#static-site-generators), [Content Management 
   * [Shaarli](https://github.com/shaarli/Shaarli) - Personal, minimalist, super-fast, no-database bookmarking and link sharing plaform. ([Demo](http://shaarlidemo.tuxfamily.org/#demo)) `Zlib` `PHP`
   * [unmark](https://unmark.it/) - An open source to do app for links. ([源码](https://github.com/plainmade/unmark)) `MIT` `PHP`
 
+<a name="日历和地址薄"></a>
 ## 日历和地址薄
 
 Some [Groupware](#groupware) solutions also feature calendar/address book editing and synchronization.
@@ -182,6 +190,7 @@ Some [Groupware](#groupware) solutions also feature calendar/address book editin
   * [InfCloud](https://www.inf-it.com/open-source/clients/infcloud/) - An open source CalDAV/CardDAV web client implementation. ([Demo](https://www.inf-it.com/infcloud/), [源码](https://www.inf-it.com/InfCloud_0.13.1.zip)) `AGPLv3` `Javascript`
 
 
+<a name="通讯系统"></a>
 ## 通讯系统
 
 ### 定制
@@ -354,6 +363,7 @@ _[Extensible Messaging and Presence Protocol](https://en.wikipedia.org/wiki/XMPP
     * [Libervia](http://wiki.goffi.org/wiki/Libervia/en) - Web frontend from Salut à Toi. ([源码](http://repos.goffi.org/libervia)) `AGPLv3` `Python`
 
 
+<a name="内容管理系统 (CMS)"></a>
 ## 内容管理系统 (CMS)
 
 CMS are a practical way to setup a website with many features. CMS often come with third party plugins, themes and functionality that is easy to add and customize to your needs. See also [Blogging Platforms](#blogging-platforms) and [Static Site Generators](#static-site-generators)
@@ -413,11 +423,13 @@ _Recipe management_
 * [WooCommerce](https://www.woothemes.com/woocommerce/) - WordPress based e-commerce solution. ([源码](https://github.com/woothemes/woocommerce)) `GPL` `PHP`
 
 
+<a name="DNS"></a>
 ## DNS
 
 See https://github.com/n1trux/awesome-sysadmin#dns
 
 
+<a name="文档归档"></a>
 ## 文档归档
 
   * [CUPS](https://www.cups.org/) - The Common Unix Print System uses Internet Printing Protocol (IPP) to support printing to local and network printers. ([源码](https://www.cups.org/software.php)) `GPLv2` `C`
@@ -425,6 +437,7 @@ See https://github.com/n1trux/awesome-sysadmin#dns
   * [SANE Network Scanning](http://sane-project.org/) - allow remote clients to access image acquisition devices (scanners) available on the local host. ([源码](http://www.sane-project.org/cvs.html)) `GPLv2` `C`
 
 
+<a name="企业资源规划 ERP"></a>
 ## 企业资源规划 ERP
 
 * [ERPNext](https://erpnext.com) - Free open source ERP system. ([Demo](https://demo.erpnext.com), [源码](https://github.com/frappe/erpnext)) `GPLv3` `Python`
@@ -432,6 +445,7 @@ See https://github.com/n1trux/awesome-sysadmin#dns
 * [Tryton](http://www.tryton.org/) - Free open source business solution. ([Demo](http://demo.tryton.org/), [源码](https://hg.tryton.org/)) `GPLv3` `Python/Javascript`
 
 
+<a name="联合身份/认证"></a>
 ## 联合身份/认证
 
   * [FreeRADIUS](http://freeradius.org/) - High performance and highly configurable multi-protocol policy/authentication server, supporting RADIUS, DHCPv4 and VMPS. ([源码](https://github.com/FreeRADIUS/freeradius-server)) `GPLv2` `C`
@@ -444,6 +458,7 @@ See https://github.com/n1trux/awesome-sysadmin#dns
   * [OSIAM](https://www.osiam.org) - Open Source Identity and Access Management implementing OAuth 2.0 and SCIMv2. ([源码](https://github.com/osiam/osiam)) `MIT` `Java`
 
 
+<a name="Feed 阅读器"></a>
 ## Feed 阅读器
 
   * [CommaFeed](https://www.commafeed.com/) - Google Reader inspired self-hosted RSS reader. ([源码](https://github.com/Athou/commafeed)) `Java`
@@ -474,6 +489,7 @@ See https://github.com/n1trux/awesome-sysadmin#dns
     * [ttrss-reader](https://github.com/kucrut/ttrss-reader) - Light and responsive client for TTRSS. `GPLv2` `Javascript`
 
 
+<a name="文件共享和同步"></a>
 ## 文件共享和同步
 
 Some [Groupware](#groupware) solutions also feature file sharing and synchronization.
@@ -551,6 +567,7 @@ Some [Groupware](#groupware) solutions also feature file sharing and synchroniza
   * [Sprut.io](https://sprut.io) - 2 panel file manager with drag and drop features, code editor, text search, hotkeys. ([Demo](https://demo.sprut.io:9443), [源码](https://github.com/LTD-Beget/sprutio)) `GPLv3` `Python`
 
 
+<a name="游戏"></a>
 ## 游戏
 
   * [0hh1](https://github.com/Q42/0hh1) - A lovely little logic game by Q42. ([Demo](http://0hh1.com/)) `MIT` `HTML5`
@@ -563,12 +580,14 @@ Some [Groupware](#groupware) solutions also feature file sharing and synchroniza
   * [TournamentMango](http://tournamentmango.com/) - TournamentMango is an open source tournament bracket and user management system. You can build an archive of players and keep track of all their scores over time as well as their regular characters, games, and aliases. ([源码](https://github.com/seiyria/tournamentmango)) `MIT` `Javascript`
 
 
+<a name="网关"></a>
 ## 网关
 
   * [GateOne](https://github.com/liftoff/GateOne/) - Gate One is an HTML5 web-based terminal emulator and SSH client. - `AGPLv3`
   * [Guacamole](http://guac-dev.org/) - Guacamole is a clientless remote desktop gateway. It supports standard protocols like VNC and RDP. ([源码](https://github.com/glyptodon/)) `MIT` `Java/C`
 
 
+<a name="Groupware 群件"></a>
 ## Groupware 群件
 
   * [Citadel](http://www.citadel.org/doku.php) - Groupware including email, calendar/scheduling, address books, forums, mailing lists, IM, wiki and blog engines, RSS aggregation and more. ([源码](http://www.citadel.org/doku.php/installation:source)) `GPLv3` `C`
@@ -584,6 +603,7 @@ Some [Groupware](#groupware) solutions also feature file sharing and synchroniza
   * [Zimbra Collaboration](https://www.zimbra.com/downloads/) - Email, calendar, collaboration server with web interface and lots of integrations.  ([源码](https://www.zimbra.com/open-source-email-overview/)) `GPLv2/CPALv1` `Java`
 
 
+<a name="学习和课程"></a>
 ## 学习和课程
 
   * [Chamilo LMS](https://chamilo.org/chamilo-lms/) - Chamilo LMS allows you to create a virtual campus for the provision of online or semi-online training. ([源码](https://github.com/chamilo/chamilo-lms)) `GPLv3` `PHP`
@@ -596,6 +616,7 @@ Some [Groupware](#groupware) solutions also feature file sharing and synchroniza
   * [SchoolTool](http://schooltool.org/) - SchoolTool is free administrative software for schools. It includes demographics, gradebook, attendance, calendaring, reporting and more for primary and secondary schools. ([源码](http://bazaar.launchpad.net/~schooltool-owners/schooltool/2.8/files)) `GPLv2` `Python`
 
 
+<a name="地图 & GPS"></a>
 ## 地图 & GPS
 
   * [Graphhopper](https://graphhopper.com/) - Fast routing library and server using OpenStreetMap. ([源码](https://github.com/graphhopper/graphhopper))
@@ -606,6 +627,7 @@ Some [Groupware](#groupware) solutions also feature file sharing and synchroniza
   * [uMap](https://umap.openstreetmap.fr/en/) - Create maps with OpenStreetMap layers in a minute and embed them in your site. ([源码](https://github.com/umap-project/umap)) `WTFPL` `Python/Django`
 
 
+<a name="媒体流"></a>
 ## 媒体流
 
 See also <https://en.wikipedia.org/wiki/List_of_streaming_media_systems>, <https://en.wikipedia.org/wiki/Comparison_of_streaming_media_systems>
@@ -643,6 +665,7 @@ See also <https://en.wikipedia.org/wiki/List_of_streaming_media_systems>, <https
   * [Zoneminder](https://github.com/ZoneMinder/ZoneMinder) - Closed-circuit television (CCTV) software application which supports IP, USB and Analog cameras. `GPLv2` `PHP`
 
 
+<a name="杂项/其它"></a>
 ## 杂项/其它
 
   * [EasyBook Project](http://easybook-project.org/) - Book publishing as easy as it should be. ([源码](https://github.com/javiereguiluz/easybook)) `MIT` `PHP`
@@ -653,6 +676,7 @@ See also <https://en.wikipedia.org/wiki/List_of_streaming_media_systems>, <https
   * [Skygear](https://skygear.io) - A complete backend server for web, mobile and iOT applcations. ([Demo](https://portal.skygear.io), [源码](https://github.com/SkygearIO/skygear-server)) `Apache` `Go`
   * [webtrees](https://www.webtrees.net) - webtrees is the web's leading on-line collaborative genealogy application. ([Demo](https://dev.webtrees.net/demo-stable/index.php?ctype=gedcom&ged=demo), [源码](https://github.com/fisharebest/webtrees)) `GPLv3` `PHP`
 
+<a name="资金、预算和管理"></a>
 ## 资金、预算和管理
 
   * [Benedetto](https://github.com/arecker/bennedetto) - Bennedetto is a simple, turn-based budget management app. `GPLv3` `Python`
@@ -673,11 +697,13 @@ See also <https://en.wikipedia.org/wiki/List_of_streaming_media_systems>, <https
   * [StockazNG](https://dev.sigpipe.me/dashie/StockazNG) - Asset Management System. `MIT` `Python`
 
 
+<a name="监测"></a>
 ## 监测
 
 See https://github.com/n1trux/awesome-sysadmin#monitoring and https://github.com/n1trux/awesome-sysadmin#metric--metric-collection
 
 
+<a name="笔记 & 编辑器"></a>
 ## 笔记 & 编辑器
 
   * [dillinger](http://dillinger.io/) - The last Markdown editor, ever. ([源码](https://github.com/joemccann/dillinger/)) `MIT` `Nodejs`
@@ -693,6 +719,7 @@ See https://github.com/n1trux/awesome-sysadmin#monitoring and https://github.com
   * [Turtl](https://turtl.it/) - A totally private personal database and note taking app. ([源码](https://github.com/turtl)) `GPLv3` `CommonLisp`
 
 
+<a name="办公套件"></a>
 ## 办公套件
 
   * [EtherCalc](https://ethercalc.org/) - Web spreadsheet. ([源码](https://github.com/audreyt/ethercalc) `CPALv1/Other` `Nodejs`
@@ -704,6 +731,7 @@ See https://github.com/n1trux/awesome-sysadmin#monitoring and https://github.com
   * [ownCloud documents](https://doc.owncloud.org/server/8.2/user_manual/documents.html) - Collaborative editing and sharing of rich-text documents. ([源码](https://github.com/owncloud/documents)) `AGPLv3` `PHP`
 
 
+<a name="密码管理"></a>
 ## 密码管理
 
  * [keeweb](https://keeweb.info/) - This webapp is a browser and desktop password manager compatible with KeePass databases. ([源码](https://github.com/keeweb/keeweb)) `MIT` `Javascript`
@@ -713,6 +741,7 @@ See https://github.com/n1trux/awesome-sysadmin#monitoring and https://github.com
  * [Teampass](http://teampass.net/) - Password manager dedicated for managing passwords in a collaborative way on any server Apache, MySQL and PHP. ([源码](https://github.com/nilsteampassnet/TeamPass/)) `GPLv3` `PHP`
 
 
+<a name="Pastebins"></a>
 ## Pastebins
 
   * [0bin](https://github.com/sametmax/0bin) - Client side encrypted pastebin. `WTFPL` `Python`
@@ -733,6 +762,7 @@ See https://github.com/n1trux/awesome-sysadmin#monitoring and https://github.com
   * [ZeroBin](https://github.com/elrido/ZeroBin/wiki) - ZeroBin is a minimalist, opensource online pastebin/discussion board where the server has zero knowledge of hosted data. ([Demo](https://zerobin.dssr.ch/), [源码](https://github.com/elrido/ZeroBin)) `Zlib` `PHP`
 
 
+<a name="个人仪表盘"></a>
 ## 个人仪表盘
 
   * [Dashing](http://shopify.github.io/dashing/) - Sinatra based, open sourced dashboard builder from Shopify. ([Demo](http://dashingdemo.herokuapp.com/sample), [源码](https://github.com/Shopify/dashing)) `MIT` `Ruby`
@@ -747,6 +777,7 @@ See https://github.com/n1trux/awesome-sysadmin#monitoring and https://github.com
   * [wger](https://github.com/rolandgeider/wger) - A web-based personal workout, fitness and weight logger/tracker. It can also be used as a simple gym management utility and offers a full REST API as well. ([Demo](https://wger.de)) `AGPLv3` `Python`
 
 
+<a name="照片和视频库"></a>
 ## 照片和视频库
   * [Chevereto 2.X](https://github.com/Chevereto/Chevereto-2.X) - Open source one-click image hosting script. ([源码](https://github.com/Chevereto/Chevereto-2.X)) `MIT` `PHP`
   * [CumulusClips](http://cumulusclips.org/) - Your own video sharing website with CumulusClips video sharing script. You can build a YouTube clone where users can upload, rate, comment on videos, and much more.  ([Demo](https://tube.devosi.org/)) `GPLv2` `PHP`
@@ -769,6 +800,7 @@ See https://github.com/n1trux/awesome-sysadmin#monitoring and https://github.com
   * [Zenphoto](http://www.zenphoto.org/) - Open-source gallery and CMS project. ([源码](https://github.com/zenphoto/zenphoto))  `GPLv2` `PHP`
 
 
+<a name="投票与事件"></a>
 ## 投票与事件
 
   * [dudle](http://primelife.ercim.eu/results/opensource/63-dudle) - An online scheduling application. ([Demo](https://dudle.inf.tu-dresden.de/)) `AGPLv3` `Ruby`
@@ -780,6 +812,7 @@ See https://github.com/n1trux/awesome-sysadmin#monitoring and https://github.com
   * [TellForm](https://tellform.com) - A beautiful online form and survey creator. ([Demo](https://stage.tellform.com/#!/forms/57196d592601ed12074eecc0), [源码](https://github.com/whitef0x0/tellform)) `MIT` `Nodejs`
 
 
+<a name="代理"></a>
 ## 代理
 
   * [microproxy](https://github.com/thekvs/microproxy) - lightweight non-caching HTTP/HTTPS proxy server. ([源码](https://github.com/thekvs/microproxy)) `MIT` `Go`
@@ -794,6 +827,7 @@ See https://github.com/n1trux/awesome-sysadmin#monitoring and https://github.com
   * [Traefik](https://traefik.io/) - Træfɪk is a modern HTTP reverse proxy and load balancer made to deploy microservices with ease. It supports several backends (Docker, Swarm, Mesos/Marathon, …) to manage its configuration automatically and dynamically. ([源码](https://github.com/containous/traefik)) `MIT` `Go`
 
 
+<a name="稍后阅读列表"></a>
 ## 稍后阅读列表
 
   * [Nunux Keeper](http://keeper.nunux.org/) - Your personal content curation service. ([源码](https://github.com/ncarlier/nunux-keeper)) `GPLv3` `Nodejs`
@@ -801,6 +835,7 @@ See https://github.com/n1trux/awesome-sysadmin#monitoring and https://github.com
   * [Wallabag](https://www.wallabag.org/?lang=fr_fr) - Wallabag, formerly Poche, is a web application allowing you to save articles to read them later with improved readability. ([Demo](http://demo.wallabag.org/), [Public instance](http://www.framabag.org/), [源码](https://github.com/wallabag/wallabag) `MIT` `PHP`
 
 
+<a name="搜索引擎"></a>
 ## 搜索引擎
 
   * [Gigablast](http://www.gigablast.com/) - open source search engine. ([Demo](http://www.gigablast.com/), [源码](https://github.com/gigablast/open-source-search-engine)) `Apache` `C++`
@@ -809,6 +844,7 @@ See https://github.com/n1trux/awesome-sysadmin#monitoring and https://github.com
   * [Yacy](http://yacy.net/en/index.html) - Peer based, decentralized search engine server. `GPL2` `Java`
 
 
+<a name="软件开发"></a>
 ## 软件开发
 
 ### 项目管理
@@ -873,11 +909,13 @@ See also [Static site generators](#static-site-generators)
   * [Read the Docs](https://docs.readthedocs.org/en/latest/install.html) - Host documentation, making it fully searchable and easy to find; import your docs using any major version control system, including Mercurial, Git, Subversion, and Bazaar. ([Demo](https://readthedocs.org/projects/), [源码](https://github.com/rtfd/readthedocs.org)) `MIT` `Python`
 
 
+<a name="静态网站生成器"></a>
 ## 静态网站生成器
 
 See https://staticsitegenerators.net and https://www.staticgen.com
 
 
+<a name="任务管理/To-do 列表"></a>
 ## 任务管理/To-do 列表
 
 *See also [Project Management](#project-management) and [Ticketing](#ticketing).*
@@ -898,6 +936,7 @@ See https://staticsitegenerators.net and https://www.staticgen.com
   * [Wekan](https://wekan.io/) - An open-source Trello-like kanban. ([Demo](https://oasis.sandstorm.io/appdemo/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h), [源码](https://github.com/wekan/wekan)) `MIT` `Javascript/Meteor`
 
 
+<a name="Ticketing"></a>
 ## Ticketing
 
 *See also [Task management/To-do lists](#task-managementto-do-lists) and [Project Management](#project-management)*
@@ -917,7 +956,7 @@ See https://staticsitegenerators.net and https://www.staticgen.com
   * [TheBugGenie](http://www.thebuggenie.com) - Ticket system with extensive user rights system.
 
 
-## 短 URL
+## 短链接
 
   * [Lstu](https://github.com/ldidry/lstu) - _Let's SHorten That Url_ - Lightweight URL shortener
   * [Nimbus](https://github.com/ethanal/nimbus) - A URL shortener and file sharer with a drag-and-drop OS X menu bar client and web interface - `MIT` `Python`
@@ -925,16 +964,19 @@ See https://staticsitegenerators.net and https://www.staticgen.com
   * [YOURLS](http://yourls.org/) - YOURLS is a set of PHP scripts that will allow you to run Your Own URL Shortener. Features include password protection, URL customization, bookmarklets, statistics, API, plugins, jsonp. ([源码](https://github.com/YOURLS/YOURLS/), [Documentation](https://github.com/YOURLS/YOURLS/wiki)) `MIT`
 
 
+<a name="VPN"></a>
 ## VPN
 
 See https://github.com/n1trux/awesome-sysadmin#vpn
 
 
+<a name="Web 服务器"></a>
 ## Web 服务器
 
 See https://github.com/n1trux/awesome-sysadmin#web
 
 
+<a name="Wikis"></a>
 ## Wikis
 
 See also [Documentation Generators](#documentation-generators), [Wikimatrix](http://www.wikimatrix.org/), [Wiki Engines on WikiIndex](http://wikiindex.org/Category:Wiki_Engine), [List of wiki software on wikipedia](https://en.wikipedia.org/wiki/List_of_wiki_software), [Comparison of wiki software on wikipedia](https://en.wikipedia.org/wiki/Comparison_of_wiki_software).
@@ -962,6 +1004,7 @@ See also [Documentation Generators](#documentation-generators), [Wikimatrix](htt
   * [Wikitten](http://wikitten.vizuina.com/) - Wikitten is a small, fast, PHP wiki, and the perfect place to store your notes, code snippets, ideas, and so on. ([源码](https://github.com/victorstanciu/Wikitten)) `MIT` `PHP`
 
 
+<a name="自托管解决方案"></a>
 ## 自托管解决方案
 
   * [arkOS](https://arkos.io/) - Install arkOS to a dedicated device and host your own websites, email, files and more. ([源码](https://git.coderouge.co/groups/arkOS) [[1]](https://github.com/cznweb)) `MIT/GPL` `Nodejs/Other`
@@ -982,6 +1025,7 @@ See also [Documentation Generators](#documentation-generators), [Wikimatrix](htt
 
 -------------------------------------------------------
 
+<a name="许可列表"></a>
 ## 许可列表
 
  * ` ⚠ ` - Depends on a third party network service
@@ -1014,6 +1058,7 @@ See also [Documentation Generators](#documentation-generators), [Wikimatrix](htt
 
 -------------------------------------------------------
 
+<a name="外链"></a>
 ## 外链
 
  * [Awesome Selfhosted Chat](https://chat.awesome-selfhosted.com) - A rocket.chat instance setup for the awesome selfhosted community.
@@ -1025,14 +1070,17 @@ See also [Documentation Generators](#documentation-generators), [Wikimatrix](htt
 
 -------------------------------------------------------
 
+<a name="贡献"></a>
 ## 贡献
 
 Contributing guidelines can be found [here](.github/CONTRIBUTING.md).
 
+<a name="作者"></a>
 ## 作者
 
 The list of authors can be found [here](AUTHORS).
 
+<a name="许可"></a>
 ## 许可
 
 This list is under the [Creative Commons Attribution-ShareAlike 3.0 Unported](LICENSE) License.
